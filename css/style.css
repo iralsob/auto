@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Kelson Sans';
+    src: url(../fonts/Kelson_Sans_Regular.otf);
+}
+@font-face {
+    font-family: 'Kelson Sans Bold';
+    src: url(../fonts/KelsonSansBoldRU.otf);
+}
+@font-face {
+    font-family: 'MiriadPro';
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: 'DejaVuSansCondensed';
+    src: url(../fonts/DejaVuSansCondensed.ttf);
+}
+@font-face {
+    font-family: 'DejaVuSansEL';
+    src: url(../fonts/DejaVuSans-ExtraLight.ttf);
+}
+
+header,
+section,
+footer {
+	width: 100%;
+	min-width: 1200px;
+	background: #edeeee;
+}
+header .wrapper,
+section .wrapper,
+footer .wrapper {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+header {
+	z-index: 9999;
+	position: fixed;
+	border: 1px solid #46468d;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+	background: #1674b7;
+	background: -moz-linear-gradient(top, #1674b7 0%, #383889 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1674b7), color-stop(100%,#383889));
+	background: -webkit-linear-gradient(top, #1674b7 0%,#383889 100%);
+	background: -o-linear-gradient(top, #1674b7 0%,#383889 100%);
+	background: -ms-linear-gradient(top, #1674b7 0%,#383889 100%);
+	background: linear-gradient(to bottom, #1674b7 0%,#383889 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1674b7', endColorstr='#383889',GradientType=0 );
+}
+.all-day {
+	float: left;
+	padding-left: 4%;
+	width: 29%;
+	font: 40px 'Kelson Sans';
+	color: #fff;
+	margin-top: 8px;
+	background: url(../img/clock.png) no-repeat left center;
+}
+.all-day span {
+	font: 20px 'MiriadPro';
+	color: #fff;
+}
+.all-day,
+.phone,
+.logo {
+	vertical-align: middle;
+}
+.phone,
+.logo {
+	width: 33%;
+	display: inline-block;
+}
+.logo {
+	text-align: center;
+}
+.logo img {
+	margin-bottom: -8%;
+	z-index: 100;
+}
+.phone {
+	text-align: right;
+	color: #fff;
+	font: 26px 'Kelson Sans';
+}
+.phone .address {
+	font: 12px DejaVuSansCondensed;
+	color: #fff;
+}
+.promo {
+	padding-top: 62px;
+	background:  url(../img/banner.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	position: relative;
+}
+.wrapper.narrow {
+	padding: 35px 30px;
+	color: #fff;
+	height: 570px;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	background: rgba(0,125,212,.8);
+	background: -moz-linear-gradient(top, rgba(0,125,212,.8) 0%, rgba(56,56,137,.8) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,125,212,.8)), color-stop(100%,rgba(56,56,137,.8)));
+	background: -webkit-linear-gradient(top, rgba(0,125,212,.8) 0%,rgba(56,56,137,.8) 100%);
+	background: -o-linear-gradient(top, rgba(0,125,212,.8) 0%,rgba(56,56,137,.8)100%);
+	background: -ms-linear-gradient(top, rgba(0,125,212,.8) 0%,rgba(56,56,137,.8) 100%);
+	background: linear-gradient(to bottom, rgba(0,125,212,.8) 0%,rgba(56,56,137,.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0,125,212,.8)', endColorstr='rgba(56,56,137,.8)',GradientType=0 );
+}
+.promo h1 {
+	font: 35px DejaVuSansCondensed;
+	color: #fff;
+	margin-bottom: 50px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75),  0px 1px 2px #000;
+}
+.promo p {
+	font: 14px/1.71 DejaVuSansCondensed;
+	margin-bottom: 45px;
+}
+.advantages-list {
+	margin: 0 40px;
+}
+.advantage-item {
+	display: inline-block;
+	font: 16px/1.71 DejaVuSansCondensed;
+	margin-bottom: 20px;
+	list-style: url(../img/list-type.png);
+}
+.more {
+	margin-top: 15px;
+}
+.more .wi-fi,
+.more .coffee {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.more .wi-fi {
+	background: url(../img/wifi.png) no-repeat center;
+}
+.more .coffee {
+	background: url(../img/coffee.png) no-repeat center;
+}
+.buttons a {
+	border-radius: 10px;
+	font: 18px 'Kelson Sans';
+	margin-top: 45px;
+	color: #fff;
+	width: 115px;
+	padding: 10px 50px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.34);
+	background: rgb(235,118,50); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(245,175,74,1) 0%, rgba(235,118,50,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,175,74,1)), color-stop(100%,rgba(235,118,50,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* W3C */
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1), 0px -1px 0px 0px rgba(0, 0, 0, 0.29) inset, 0px -1px 0px 1px rgba(255, 255, 255, 0.6);
+}
+.buttons a:first-child {
+	margin-right: 70px;
+}
+.nav {
+	background: #29529d;
+	display: flex;
+	text-align: center;
+}
+.nav a {
+	color: #fff;
+	text-decoration: none;
+	font: 15px 'Kelson Sans';
+	text-transform: uppercase;
+	display: inline-block;
+	width: 185px;
+	padding: 20px 0;
+	text-shadow: 1px 1px 2px rgba(198, 86, 24, 0.2);
+	position: relative;
+	float: left;
+}
+.nav a:hover {
+	color: #f6bd5d;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.16) 99%, rgba(255,255,255,0.16) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(99%,rgba(255,255,255,0.16)), color-stop(100%,rgba(255,255,255,0.16))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.16) 99%,rgba(255,255,255,0.16) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.16) 99%,rgba(255,255,255,0.16) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.16) 99%,rgba(255,255,255,0.16) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.16) 99%,rgba(255,255,255,0.16) 100%); /* W3C */
+}
+.nav a::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	height: 100%;
+	top: 0%;
+	width: 1px;
+	background: url(../img/border.png) no-repeat;
+}
+.nav a:first-child::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	height: 100%;
+	top: 0%;
+	width: 1px;
+	background: url(../img/border.png) no-repeat;
+}
+h2 {
+	padding-top: 80px;
+	font: 30px 'Kelson Sans Bold';
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+.h2-bg{
+	background: url(../img/h2-bg.png) no-repeat center 30%;
+	padding-top: 160px;
+}
+h2 + p {
+	font: 14px/1.71 'DejaVuSansEL';
+	color: #797979;
+	width: 60%;
+	display: inline-block;
+	margin: 0 20%;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.about-items {
+	text-align: center;
+}
+.about-item {
+	width: 22%;
+	display: inline-block;
+	padding-top: 120px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	font: 14px/1.71 'DejaVuSansCondensed';
+	color: #797979;
+}
+.about-item:nth-child(1) {
+	background-image: url(../img/24.png);
+}
+.about-item:nth-child(2) {
+	background-image: url(../img/work.png);
+}
+.about-item:nth-child(3) {
+	background-image: url(../img/like.png);
+}
+.about-item:nth-child(4) {
+	background-image: url(../img/car.png);
+}
+.servise-items {
+	text-align: center;
+	overflow: auto;
+}
+.servise-item {
+	width: 23%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+
+	background:  #29529d;
+}
+.servise-item h3 {
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font: 15px 'Kelson Sans';
+	background-repeat: no-repeat;
+}
+.service-item-footer {
+	background: url(../img/shinomontaj.png) no-repeat;
+	width: 72px;
+	height: 60px;
+	margin-top: -40px;
+	display: inline-block;
+}
