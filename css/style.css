@@ -409,7 +409,7 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 .contact-items {
 	padding-bottom: 55px;
 }
-.contact-items .address,  
+.contact-items .bottom-address,  
 .contact-items  .bottom-phone,  
 .contact-items .email {
 	display: inline-block;
@@ -419,7 +419,7 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.address {
+.bottom-address {
 	font: 16px 'DejaVuSansEL';
 	color: #333;
 	background: url(../img/address.png) no-repeat left center;
