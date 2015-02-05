@@ -38,7 +38,7 @@ function init () {
     
     myMap.geoObjects.add(myPlacemark);
 
-    var myPlacemark1 = new ymaps.Placemark([55.86, 35.64], {}, {
+    var myPlacemark1 = new ymaps.Placemark([55.79, 37.54], {}, {
     	iconLayout: 'default#image',
     	iconImageHref: 'http://iralsob.github.io/auto/img/pointer.png',
     	iconImageSize: [55, 58],
@@ -47,7 +47,7 @@ function init () {
     
     myMap.geoObjects.add(myPlacemark1);
 
-    var myPlacemark2 = new ymaps.Placemark([55.61, 35.64], {}, {
+    var myPlacemark2 = new ymaps.Placemark([55.73, 37.74], {}, {
     	iconLayout: 'default#image',
     	iconImageHref: 'http://iralsob.github.io/auto/img/pointer.png',
     	iconImageSize: [55, 58],
