@@ -400,9 +400,37 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 }
 .map {
 	display: inline-block;
-	height: 300px;
+	height: 500px;
 	width: 100%;
 }
 .map > ymaps {
-	height: 300px;
+	height: 500px;
+}
+.contact-items {
+	padding-bottom: 55px;
+}
+.contact-items .address,  
+.contact-items  .bottom-phone,  
+.contact-items .email {
+	display: inline-block;
+	width: 26.83333%;
+	padding-left: 6.5%;
+	vertical-align: middle;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.address {
+	font: 16px 'DejaVuSansEL';
+	color: #333;
+	background: url(../img/address.png) no-repeat left center;
+}
+.bottom-phone {
+	font: 24px 'Kelson Sans Bold';
+	color: #29529d;
+	background: url(../img/phone.png) no-repeat left center;
+}
+.email {
+	font: 16px 'DejaVuSansEL';
+	color: #29529d;
+	background: url(../img/phone.png) no-repeat left center;
 }
