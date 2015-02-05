@@ -38,4 +38,22 @@ function init () {
     
     myMap.geoObjects.add(myPlacemark);
 
+    var myPlacemark1 = new ymaps.Placemark([56.76, 35.64], {}, {
+    	iconLayout: 'default#image',
+    	iconImageHref: 'http://iralsob.github.io/auto/img/pointer.png',
+    	iconImageSize: [55, 58],
+    	iconImageOffset: [-3, -42]
+    });
+    
+    myMap.geoObjects.add(myPlacemark1);
+
+    var myPlacemark2 = new ymaps.Placemark([54.76, 35.64], {}, {
+    	iconLayout: 'default#image',
+    	iconImageHref: 'http://iralsob.github.io/auto/img/pointer.png',
+    	iconImageSize: [55, 58],
+    	iconImageOffset: [-3, -42]
+    });
+    
+    myMap.geoObjects.add(myPlacemark2);
+
 }
