@@ -284,3 +284,117 @@ h2 + p {
 	margin-top: -40px;
 	display: inline-block;
 }
+.column {
+	width: 30%;
+	display: inline-block;
+	margin-right: 3%;
+}
+.column select,
+.column input {
+	width: 100%;
+}
+.column select {
+	background: #e8e9ea;
+	border: 0;
+	outline: 0;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.2), 0px 3px 3px 0px rgba(55, 55, 55, 0.1), 0px -1px 0px 0px rgba(0, 0, 0, 0.29) inset, 0 1px 0 0 rgba(255,255,255,.8) inset;
+	padding: 10px;
+	border-radius: 6px;
+	font: 18px 'MyriadPro-Regular';
+}
+.flexslider {
+	position: relative;
+}
+.flex-viewport {
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+.slides li {
+	position: relative;
+	padding-right: 20px;
+}
+.slides img {
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+.slides h3 {
+	position: absolute;
+	bottom: 0;
+	left: 130px;
+	font: 18px 'DejaVuSansCondensed';
+	color: #1674b7;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.slides h4 {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.slides div {
+	color: #797979;
+	font: 14px/1.57 'DejaVuSansEL';
+	position: relative;
+	width: 290px;
+	padding: 25px;
+	background: #fff;
+	border-radius: 20px 20px 20px 0;
+	float: right;
+	margin-bottom: 35px;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.slides div::before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: -30px;
+	width: 0;
+    height: 0;
+    border-bottom: 30px solid #fff; 
+    border-left: 30px solid transparent;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.flex-direction-nav a {
+	color: transparent;
+	display: inline-block;
+	width: 20px;
+	height: 40px;
+	position: absolute;
+	top:35%;
+}
+.flex-direction-nav .flex-prev {
+	left: 0;
+	background: url(../img/arr-l.png) no-repeat center;
+}
+.flex-direction-nav .flex-next {
+	right: 0;
+	background: url(../img/arr-r.png) no-repeat center;
+}
+.flex-control-nav {
+	text-align: center;
+	margin-top: 50px;
+}
+.flex-control-nav li {
+	display: inline-block;
+}
+.flex-control-nav a {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #ec7d35;
+	color: transparent;
+	margin: 0 3px;
+}
+.flex-control-nav .flex-active {
+	background: rgb(245,175,74); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(245,175,74,1) 0%, rgba(235,118,50,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,175,74,1)), color-stop(100%,rgba(235,118,50,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* W3C */
+	box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.29) inset, 0px 0px 0px 2px rgba(255, 255, 255, 0.29) inset;
+}

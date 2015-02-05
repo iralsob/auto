@@ -1,10 +1,11 @@
 $(document).ready(function() {
 	$('.flexslider').flexslider({
 		animation: "slide",
-		directionNav: true
+		animationLoop: false,
+    	itemWidth: 500,
 	});
 
-	$("h2").pxgradient({
+	$("h2, form span").pxgradient({
 		step: 1,
 		colors: ["#eb7632","#f5af4a"],
 		dir: "y"
@@ -19,3 +20,22 @@ $(document).ready(function() {
 	});
 	return false;
 });
+
+var myMap;
+ymaps.ready(init);
+function init () {
+    myMap = new ymaps.Map('map', {
+        center: [55.76, 37.64],
+        zoom: 11
+    });
+
+    var myPlacemark = new ymaps.Placemark([55.76, 37.64], {}, {
+    	iconLayout: 'default#image',
+    	iconImageHref: 'http://iralsob.github.io/auto/img/pointer.png',
+    	iconImageSize: [55, 58],
+    	iconImageOffset: [-3, -42]
+    });
+    
+    myMap.geoObjects.add(myPlacemark);
+
+}

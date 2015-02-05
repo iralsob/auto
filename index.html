@@ -106,33 +106,39 @@
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
 			<form>
-				<span>Тип машины</span>
-				<select>
-					<option>Легковая</option>
-					<option>Грузовая</option>
-					<option>Автобус</option>
-				</select>
-				<span>Тип услуги</span>
-				<select>
-					<option>Сезонная смена</option>
-					<option>Межсезонная смена</option>
-					<option>Несезонная смена</option>
-				</select>
-				<span>Диаметр колеса</span>
-				<select>
-					<option>Большой</option>
-					<option>Маленький</option>
-					<option>Средний</option>
-				</select>
-				<span>Тип шин</span>
-				<select>
-					<option>С шипами</option>
-					<option>Без шипов</option>
-					<option>Альтернативные</option>
-				</select>
-				<span>Итого</span>
-				<span id="result">0</span> <span>рублей</span>
-				<input type="submit" value="Записаться на прием">
+				<div class="column">
+					<span>Тип машины</span>
+					<select>
+						<option>Легковая</option>
+						<option>Грузовая</option>
+						<option>Автобус</option>
+					</select>
+					<span>Тип услуги</span>
+					<select>
+						<option>Сезонная смена</option>
+						<option>Межсезонная смена</option>
+						<option>Несезонная смена</option>
+					</select>
+				</div><!--
+				--><div class="column">
+					<span>Диаметр колеса</span>
+					<select>
+						<option>Большой</option>
+						<option>Маленький</option>
+						<option>Средний</option>
+					</select>
+					<span>Тип шин</span>
+					<select>
+						<option>С шипами</option>
+						<option>Без шипов</option>
+						<option>Альтернативные</option>
+					</select>
+				</div><!--
+				--><div class="column">
+					<span>Итого</span>
+					<span id="result">0</span> <span>рублей</span>
+					<input type="submit" value="Записаться на прием">
+				</div>	
 			</form>
 		</div>
 	</section>
@@ -152,8 +158,8 @@
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
-			<div class="reviews-items">
-				<ul>
+			<div class="reviews-items flexslider">
+				<ul class="slides">
 					<li>
 						<img src="img/reviewer.jpg" alt="Photo">
 						<div>
