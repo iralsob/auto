@@ -354,7 +354,7 @@ h2 + p {
     height: 0;
     border-bottom: 30px solid #fff; 
     border-left: 30px solid transparent;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 5px 3px -2px rgba(0, 0, 0, 0.1);
 }
 .flex-direction-nav a {
 	color: transparent;
@@ -412,12 +412,19 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 .contact-items .bottom-address,  
 .contact-items  .bottom-phone,  
 .contact-items .email {
-	display: inline-block;
-	width: 26.83333%;
+	display: inline-block;	
 	padding-left: 6.5%;
 	vertical-align: middle;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.contact-items .bottom-address,   
+.contact-items .email {
+	width: 26.83333%;
+}
+.contact-items  .bottom-phone {
+	width: 21.83333%;
+	margin-left: 5%;
 }
 .bottom-address {
 	font: 16px 'DejaVuSansEL';
@@ -433,4 +440,7 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 	font: 16px 'DejaVuSansEL';
 	color: #29529d;
 	background: url(../img/phone.png) no-repeat left center;
+}
+ymaps.ymaps-2-1-17-events-pane.ymaps-2-1-17-user-selection-none {
+	box-shadow: rgba(0, 0, 0, 0.298039) 0px 4px 7px 0px inset;
 }
