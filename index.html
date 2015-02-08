@@ -8,7 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="datetimepicker-master/jquery.datetimepicker.css">
+
+
 </head>
+
 <body>
 	<header>
 		<div class="wrapper">
@@ -54,7 +58,7 @@
 	</section>
 	<section id="about">
 		<div class="wrapper">
-			<h2 class="h2-bg">AutoCentr</h2>
+			<h2 class="h2-bg orange-gradient">AutoCentr</h2>
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like m</p>
 
@@ -68,7 +72,7 @@
 	</section>
 	<section id="services">
 		<div class="wrapper">
-			<h2>Наши услуги</h2>
+			<h2 class="orange-gradient">Наши услуги</h2>
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
@@ -101,60 +105,76 @@
 	</section>
 	<section id="calc">
 		<div class="wrapper">
-			<h2>Онлайн-калькулятор</h2>
+			<h2 class="orange-gradient">Онлайн-калькулятор</h2>
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
 			<form>
 				<div class="column">
-					<span>Тип машины</span>
-					<select>
-						<option>Легковая</option>
-						<option>Грузовая</option>
-						<option>Автобус</option>
+					<span class="orange-gradient">Тип машины</span>
+					<select id="car-type">
+						<option value="1000">Легковая</option>
+						<option value="2000">Грузовая</option>
+						<option value="3000">Автобус</option>
 					</select>
-					<span>Тип услуги</span>
-					<select>
-						<option>Сезонная смена</option>
-						<option>Межсезонная смена</option>
-						<option>Несезонная смена</option>
-					</select>
-				</div><!--
-				--><div class="column">
-					<span>Диаметр колеса</span>
-					<select>
-						<option>Большой</option>
-						<option>Маленький</option>
-						<option>Средний</option>
-					</select>
-					<span>Тип шин</span>
-					<select>
-						<option>С шипами</option>
-						<option>Без шипов</option>
-						<option>Альтернативные</option>
+					<span  class="orange-gradient">Тип услуги</span>
+					<select id="service-type">
+						<option value="2000">Сезонная смена</option>
+						<option value="3000">Межсезонная смена</option>
+						<option value="4000">Несезонная смена</option>
 					</select>
 				</div><!--
 				--><div class="column">
-					<span>Итого</span>
-					<span id="result">0</span> <span>рублей</span>
-					<input type="submit" value="Записаться на прием">
+					<span class="orange-gradient">Диаметр колеса</span>
+					<select class="wheel-type">
+						<option value="3000">Большой</option>
+						<option value="4000">Маленький</option>
+						<option value="5000">Средний</option>
+					</select>
+					<span class="orange-gradient">Тип шин</span>
+					<select class="tire-type">
+						<option value="4000">С шипами</option>
+						<option value="5000">Без шипов</option>
+						<option value="6000">Альтернативные</option>
+					</select>
+				</div><!--
+				--><div class="column">
+					<div class="black-gradient_wrap">
+						<span class="black-gradient size-30">Итого</span>
+					<span class="black-gradient size-16">за 4 </span> <span class="black-gradient size-16"> колеса</span>
+					</div>
+					
+					<span id="result" class="size-36">0</span> <span class="size-36">рублей</span>
+					<input type="submit" value="Записаться на прием" class="submit-online">
 				</div>	
 			</form>
 		</div>
 	</section>
 	<section id="online">
 		<div class="wrapper">
-			<h2>Запишитесь прямо сейчас</h2>
+			<h2 class="orange-gradient">Запишитесь прямо сейчас</h2>
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
+			<div id="datepicker"></div>
+
+			<div class="online-form">
+				<h3>Заполните форму</h3>
+				<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
+				<form>
+					<input type="name">
+					<input type="email">
+					<input type="phone">
+					<input type="submit" value="Записаться на прием"  class="submit-online">
+				</form>
+			</div>
 			
 			
 		</div>
 	</section>
 	<section id="reviews">
 		<div class="wrapper">
-			<h2>Отзывы о нас</h2>
+			<h2 class="orange-gradient">Отзывы о нас</h2>
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
@@ -214,7 +234,7 @@
 	</section>
 	<section id="contacts">
 		<div class="wrapper">
-			<h2>Контакты</h2>
+			<h2 class="orange-gradient">Контакты</h2>
 
 			<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole hear</p>
 
@@ -233,15 +253,16 @@
 			</div>
 		</div>
 	</section>
-	<div class="map" id="map">
-	</div>
+	<!--<div class="map" id="map">
+	</div>-->
 	<footer></footer>
 
 <!--  SCRIPTS  -->
 <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/pxgradient-1.0.3.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
+<script src="datetimepicker-master/jquery.datetimepicker.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

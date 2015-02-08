@@ -1,13 +1,55 @@
 $(document).ready(function() {
+	var carType = 0;
+	var wheelType = 0;
+	var serviceType = 0;
+	var tireType = 0;
+
+	$('select').bind('click', function(){
+
+		if (this.id == "car-type") {
+			carType = $("#car-type :selected").val();
+		} else if (this.id == "wheel-type") {
+			wheelType = $("#wheel-type :selected").val();	
+		} else if (this.id == "service-type") {
+			serviceType = $("#service-type :selected").val();
+		} else if (this.id == "tire-type") {
+			tireType = $("#tire-type :selected").val();
+		}
+
+		var result = parseInt(carType) + parseInt(wheelType) + parseInt(serviceType) + parseInt(tireType);
+
+		$("#result").html(result);
+	});
+
+	$('#datepicker').datetimepicker({
+	  format:'d.m.Y H:i',
+	  inline:true,
+	  lang:'ru',
+	  minTime:'11:30',
+	  step: 30,
+	  maxTime: '14:30',
+	  todayButton: false
+	});
+	
+
+	
+
+
 	$('.flexslider').flexslider({
 		animation: "slide",
 		animationLoop: false,
     	itemWidth: 500,
 	});
 
-	$("h2, form span").pxgradient({
+	$(".orange-gradient").pxgradient({
 		step: 1,
 		colors: ["#eb7632","#f5af4a"],
+		dir: "y"
+	});
+	
+	$(".black-gradient").pxgradient({
+		step: 1,
+		colors: ["#b0b0b4","#5d5d65"],
 		dir: "y"
 	});
 

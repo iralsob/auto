@@ -130,7 +130,8 @@ header {
 	display: inline-block;
 	font: 16px/1.71 DejaVuSansCondensed;
 	margin-bottom: 20px;
-	list-style: url(../img/list-type.png);
+	background: url(../img/list-type.png) no-repeat 0;
+	padding-left: 14px;
 }
 .more {
 	margin-top: 15px;
@@ -215,11 +216,27 @@ header {
 	background: url(../img/border.png) no-repeat;
 }
 h2 {
+	position: relative;
+	margin-bottom: 20px;
 	padding-top: 80px;
 	font: 30px 'Kelson Sans Bold';
 	text-transform: uppercase;
 	text-align: center;
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+element.style {
+}
+h2::after {
+	content: '';
+	display: inline-block;
+	width: 140px;
+	height: 1px;
+	background: #dbdbdb;
+	box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 1);
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -70px;
 }
 .h2-bg{
 	background: url(../img/h2-bg.png) no-repeat center 30%;
@@ -232,7 +249,7 @@ h2 + p {
 	display: inline-block;
 	margin: 0 20%;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 .about-items {
 	text-align: center;
@@ -293,14 +310,48 @@ h2 + p {
 .column input {
 	width: 100%;
 }
+.column span {
+	font: 18px 'DejaVuSansCondensed';
+	text-transform: uppercase;
+	margin: 30px 0 15px 0;
+display: inline-block;
+}
 .column select {
 	background: #e8e9ea;
 	border: 0;
 	outline: 0;
 	box-shadow: 0 0 2px 0 rgba(0,0,0,.2), 0px 3px 3px 0px rgba(55, 55, 55, 0.1), 0px -1px 0px 0px rgba(0, 0, 0, 0.29) inset, 0 1px 0 0 rgba(255,255,255,.8) inset;
-	padding: 10px;
+	padding: 12px;
 	border-radius: 6px;
+	color: #ea7230;
 	font: 18px 'MyriadPro-Regular';
+	background: transparent url(../img/down.png) no-repeat 97%;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.submit-online {
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.34);
+	color: #fff;
+	text-transform: uppercase;
+	font: 24px 'Kelson Sans Bold';
+	border: 0;
+	outline: 0;
+	padding: 20px 30px;
+	border-radius: 7px;
+	box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.29) inset, 0px 0px 2px 0px rgba(255, 255, 255, 1) inset, 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+	background: rgb(245,175,74); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(245,175,74,1) 0%, rgba(235,118,50,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,175,74,1)), color-stop(100%,rgba(235,118,50,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 100%); /* W3C */
+}
+.black-gradient.size-30 {
+font: 30px 'Kelson Sans';
+}
+span.black-gradient {
+	margin: 0;
 }
 .flexslider {
 	position: relative;
@@ -443,4 +494,11 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 }
 ymaps.ymaps-2-1-17-events-pane.ymaps-2-1-17-user-selection-none {
 	box-shadow: rgba(0, 0, 0, 0.298039) 0px 4px 7px 0px inset;
+}
+.online-form {
+	width: 330px;
+	display: inline-block;
+}
+.column span:first-child {
+	margin-top: 0;
 }
