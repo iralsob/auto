@@ -40,6 +40,7 @@
 	display: inline-block;
 	position: static;
 	box-shadow: none;
+	width: 66%;
 }
 .xdsoft_datetimepicker *{
 	-moz-box-sizing: border-box;
@@ -54,18 +55,18 @@
 	display:block;
 }
 .xdsoft_datetimepicker .xdsoft_datepicker{
-	width: 370px;
+	width:46%;
 	float:left;
-	margin-left:8px;
+	margin-right:4%;
 }
 .xdsoft_datetimepicker.xdsoft_showweeks .xdsoft_datepicker{
 	width: 256px;
 }
 .xdsoft_datetimepicker  .xdsoft_timepicker{
-	width: 370px;
+	width: 46%;
 	float:left;
 	text-align:left;
-	margin-left:8px;
+	margin-right:4%;
 	margin-top: 0;
 }
 .xdsoft_datetimepicker  .xdsoft_datepicker.active+.xdsoft_timepicker{
@@ -414,7 +415,11 @@ position:relative;
 }
 .xdsoft_timepicker.active:before {
 	content: "Выберите время";
+	margin-bottom: 20px;
+	display: inline-block;
 }
 .xdsoft_datepicker.active:before {
 	content: "Выберите дату";
+	margin-bottom: 20px;
+	display: inline-block;
 }
