@@ -34,7 +34,7 @@ footer .wrapper {
 	padding: 0 20px;
 }
 header {
-	z-index: 9999;
+	z-index: 99999;
 	position: fixed;
 	border: 1px solid #46468d;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
@@ -585,7 +585,7 @@ span.size-36 {
 .nav.stickly {
 position: fixed;
 top: 62px;
-z-index: 999;
+z-index: 99999;
 }
 .nav.stickly + section {
 	padding-top: 62px;
