@@ -497,6 +497,8 @@ ymaps.ymaps-2-1-17-events-pane.ymaps-2-1-17-user-selection-none {
 	box-shadow: rgba(0, 0, 0, 0.298039) 0px 4px 7px 0px inset;
 }
 .online-form {
+	vertical-align: top;
+margin-top: 8px;
 	width: 330px;
 	display: inline-block;
 }

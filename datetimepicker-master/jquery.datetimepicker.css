@@ -267,9 +267,9 @@
 .xdsoft_datetimepicker  .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker  .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker  .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current{
-	background: #33AAFF;
+	background: url(../img/selected-time.png) no-repeat 100%;
 	box-shadow: #178FE5 0 1px 3px 0 inset;
-	color:#fff;
+	color:#e0612b;
 	font-weight: 700;
 }
 .xdsoft_datetimepicker  .xdsoft_calendar td.xdsoft_other_month,
