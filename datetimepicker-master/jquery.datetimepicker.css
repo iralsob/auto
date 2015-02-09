@@ -53,6 +53,7 @@
 }
 .xdsoft_datetimepicker .xdsoft_datepicker.active, .xdsoft_datetimepicker  .xdsoft_timepicker.active{
 	display:block;
+
 }
 .xdsoft_datetimepicker .xdsoft_datepicker{
 	width:46%;
@@ -175,6 +176,8 @@ box-shadow: none !important;
 	height:314px;
 	overflow:hidden;
 	border-radius: 7px;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+	border:0;
 }
 .xdsoft_datetimepicker  .xdsoft_timepicker .xdsoft_time_box >div >div{
 	background: url(../img/time-border.png) no-repeat, #fff;
