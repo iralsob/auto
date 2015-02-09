@@ -487,7 +487,6 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 width: 102%;
 }
 .map:before {
-content: '';
 width: 0;
 height: 0;
 border-left: 50px solid transparent;
