@@ -222,9 +222,7 @@ background: #ff8000 !important;
 	text-align:center;
 	cursor:pointer;
 }
-.xdsoft_datetimepicker  .xdsoft_label:hover>span{
-	text-decoration:underline;
-}
+
 .xdsoft_datetimepicker  .xdsoft_label:hover i{
 	opacity:1.0;
 }
