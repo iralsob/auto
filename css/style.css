@@ -551,13 +551,13 @@ margin-top: 8px;
 .result-wrap-left,
 .result-wrap-right {
 	display: inline-block;
-	width: 62%;
+	width: 68%;
 	text-align: right;
 	margin-bottom: 50px;
 	vertical-align: middle;
 }
 .result-wrap-left{
-	width: 35%;
+	width: 30%;
 	text-align: left;
 }
 .result-wrap-left span,
