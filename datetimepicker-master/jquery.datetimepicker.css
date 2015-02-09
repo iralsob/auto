@@ -273,10 +273,10 @@ background: #ff8000 !important;
 }
 .xdsoft_datetimepicker  .xdsoft_calendar td {
 	border-radius: 4px;
-	text-align: center;
+	text-align: center !important;
 }
 .xdsoft_datetimepicker  .xdsoft_calendar td > div{
-	padding-right:5px;
+	padding-right:0px;
 	font: 20px 'MiriadPro';
 padding-top: 10px;
 padding-bottom: 10px;
