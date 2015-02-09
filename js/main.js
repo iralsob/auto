@@ -104,7 +104,7 @@ function init () {
 
 }
 $(window).scroll(function(){
-	var height = $('#promo').outerHeight();
+	var height = $('#promo').outerHeight()-62;
 	if ( $(window).scrollTop() > height ){
 		$("#nav").addClass("stickly");
 	} else {
