@@ -172,6 +172,10 @@ border-radius: 0 0 7px 7px;
 background: #e0612b !important;
 box-shadow: none !important;
 }
+.xdsoft_datepicker.active .xdsoft_calendar {
+
+box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
 .xdsoft_datetimepicker  .xdsoft_timepicker .xdsoft_time_box{
 	height:314px;
 	overflow:hidden;
