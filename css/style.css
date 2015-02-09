@@ -582,3 +582,11 @@ span.size-36 {
 	color: #225fa7;
 	text-transform: none;
 }
+.nav.stickly {
+position: fixed;
+top: 62px;
+z-index: 999;
+}
+.nav.stickly + section {
+	padding-top: 62px;
+}
