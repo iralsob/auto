@@ -314,6 +314,10 @@ padding-bottom: 10px;
 	color:#555861;
 	font-weight: 700;
 }
+.xdsoft_label.xdsoft_month i,
+.xdsoft_label.xdsoft_year i {
+display: none;
+}
 
 
 .xdsoft_datetimepicker  .xdsoft_calendar td.xdsoft_other_month,
