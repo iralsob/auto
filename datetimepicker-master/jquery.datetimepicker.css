@@ -223,10 +223,10 @@ background: #ff8000 !important;
 	cursor:pointer;
 }
 button.xdsoft_next {
-background: url(../img/arrow-r.png) no-repeat 50%;
+background: url(../img/arrow-r.png) no-repeat 50% !important;
 }
 button.xdsoft_prev {
-background: url(../img/arrow-l.png) no-repeat 50%;
+background: url(../img/arrow-l.png) no-repeat 50% !important;
 }
 .xdsoft_datetimepicker  .xdsoft_label:hover i{
 	opacity:1.0;
