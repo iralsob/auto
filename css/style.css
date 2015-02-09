@@ -357,6 +357,7 @@ margin-bottom: 20px;
 }
 input.submit-online,
 a.submit-online {
+	display: inline-block;
 	text-decoration: none;
 	cursor: pointer;
 	opacity: .5;
