@@ -508,7 +508,7 @@ box-shadow: rgba(0, 0, 0, 0.298039) 0px 4px 7px 0px inset;
 .contact-items  .bottom-phone,  
 .contact-items .email {
 	display: inline-block;	
-	padding-left: 6.5%;
+	padding-left: 7.5%;
 	vertical-align: middle;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -518,7 +518,7 @@ box-shadow: rgba(0, 0, 0, 0.298039) 0px 4px 7px 0px inset;
 	width: 26.83333%;
 }
 .contact-items  .bottom-phone {
-	width: 21.83333%;
+	width: 18.83333%;
 	margin-left: 5%;
 }
 .bottom-address {
