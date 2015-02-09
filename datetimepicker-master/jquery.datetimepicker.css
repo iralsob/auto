@@ -457,11 +457,20 @@ position:relative;
 	content: "Выберите время";
 	margin-bottom: 20px;
 	display: inline-block;
+	color: #ea7230;
+text-transform: uppercase;
+font: 18px 'DejaVuSansCondensed';
+padding-left: 15px;
 }
 .xdsoft_datepicker.active:before {
 	content: "Выберите дату";
 	margin-bottom: 20px;
 	display: inline-block;
+	color: #ea7230;
+	margin-top: 8px;
+text-transform: uppercase;
+font: 18px 'DejaVuSansCondensed';
+padding-left: 15px;
 }.xdsoft_datepicker.active > div {
 background: #fff;
 display: flex;
