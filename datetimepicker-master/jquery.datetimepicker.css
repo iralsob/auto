@@ -260,7 +260,7 @@ background: url(../img/arrow-l.png) no-repeat 50% !important;
 }
 .xdsoft_datetimepicker  .xdsoft_month{
 	width:100px;
-	text-align:right;
+	text-align:center;
 }
 .xdsoft_datetimepicker  .xdsoft_calendar{
 	clear:both;
