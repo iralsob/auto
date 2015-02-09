@@ -454,6 +454,21 @@ background: linear-gradient(to bottom, rgba(245,175,74,1) 0%,rgba(235,118,50,1) 
 	display: inline-block;
 	height: 500px;
 	width: 100%;
+	position: relative;
+}
+
+.map:before {
+content: '';
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 60px solid #edeeee;
+position: absolute;
+z-index: 99;
+left: 50%;
+margin-left: -25px;
+box-shadow: rgba(0, 0, 0, 0.298039) 0px 4px 7px 0px inset;
 }
 .map > ymaps {
 	height: 500px;

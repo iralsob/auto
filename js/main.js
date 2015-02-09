@@ -29,9 +29,9 @@ $(document).ready(function() {
 	  format:'d.m.Y H:i',
 	  inline:true,
 	  lang:'ru',
-	  minTime:'11:30',
+	  minTime:'9:30',
 	  step: 30,
-	  maxTime: '14:30',
+	  maxTime: '18:30',
 	  todayButton: false
 	});
 	
