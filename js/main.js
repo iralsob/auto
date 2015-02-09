@@ -103,3 +103,11 @@ function init () {
     myMap.geoObjects.add(myPlacemark2);
 
 }
+$(window).scroll(function(){
+	var height = $('#promo').outerHeight();
+	if ( $(window).scrollTop() > height ){
+		$("#nav").addClass("stickly");
+	} else {
+		$("#nav").removeClass("stickly");
+	}
+});
